@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A playful animated introduction to Shakespeare and Hamlet.">
+
+    <title>Shakespeare Gone Wild | Laboratory Website</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <input class="mode-toggle-input" type="checkbox" id="dramaticToggle">
+
+    <div class="floating-icons" aria-hidden="true">
+        <span>🎭</span>
+        <span>💀</span>
+        <span>✒️</span>
+        <span>👑</span>
+        <span>⚔️</span>
+    </div>
+
+    <header class="site-header">
+        <p class="eyebrow">A very serious literary experience*</p>
+        <h1 id="crazyTitle">Shakespeare Gone Wild</h1>
+        <p class="tagline">*Not actually serious. The Bard has entered dramatic mode.</p>
+
+        <nav aria-label="Main navigation">
+            <a href="#home">The Stage</a>
+            <a href="#about">The Bard</a>
+            <a href="#contact">The Credits</a>
+        </nav>
+    </header>
+
+    <main id="home">
+        <section class="hero-section">
+            <div class="bard-medallion" aria-label="Theatre mask illustration">🎭</div>
+
+            <div class="quote-stage">
+                <p class="scene-label">Hamlet, Act III, Scene I</p>
+                <h2>To click, or not to click?</h2>
+
+                <div class="quote-carousel" aria-label="Rotating Shakespeare quotations">
+                    <blockquote class="quote-slide quote-one">
+                        <p>“To be, or not to be: that is the question.”</p>
+                        <cite>Hamlet</cite>
+                    </blockquote>
+
+                    <blockquote class="quote-slide quote-two">
+                        <p>“All the world's a stage, and all the men and women merely players.”</p>
+                        <cite>As You Like It</cite>
+                    </blockquote>
+
+                    <blockquote class="quote-slide quote-three">
+                        <p>“Some are born great, some achieve greatness, and some have greatness thrust upon them.”</p>
+                        <cite>Twelfth Night</cite>
+                    </blockquote>
+
+                    <blockquote class="quote-slide quote-four">
+                        <p>“The course of true love never did run smooth.”</p>
+                        <cite>A Midsummer Night's Dream</cite>
+                    </blockquote>
+
+                    <blockquote class="quote-slide quote-five">
+                        <p>“Brevity is the soul of wit.”</p>
+                        <cite>Hamlet</cite>
+                    </blockquote>
+                </div>
+
+                <div class="controls">
+                    <label class="dramatic-toggle secondary-button" for="dramaticToggle">
+                        <span class="toggle-activate">Activate dramatic mode</span>
+                        <span class="toggle-calm">Calm the drama down</span>
+                    </label>
+                </div>
+
+                <p class="interaction-hint">The quotations rotate automatically. Dramatic mode uses only HTML and CSS.</p>
+            </div>
+        </section>
+
+        <section id="about" class="about-section">
+            <h2>Meet William Shakespeare</h2>
+            <p>William Shakespeare lived from 1564 to 1616 and wrote plays filled with kings, ghosts, mistaken identities, terrible decisions, and an impressive amount of dramatic shouting.</p>
+
+            <div class="fact-grid">
+                <article>
+                    <span aria-hidden="true">💀</span>
+                    <h3>Tragedy</h3>
+                    <p>Everybody ignores good advice. Things go badly.</p>
+                </article>
+
+                <article>
+                    <span aria-hidden="true">💘</span>
+                    <h3>Comedy</h3>
+                    <p>Everybody wears a disguise. Somehow it works out.</p>
+                </article>
+
+                <article>
+                    <span aria-hidden="true">👻</span>
+                    <h3>Hamlet</h3>
+                    <p>A ghost appears. Hamlet overthinks absolutely everything.</p>
+                </article>
+            </div>
+        </section>
+
+        <section id="contact" class="credits-section">
+            <h2>The Credits</h2>
+            <p>Created by Edgars Mihailovskis for the Web Programming laboratory.</p>
+
+            <h3 class="social-heading">Connect on social media</h3>
+            <div class="social-buttons" aria-label="Social media links">
+                <a class="social-button github-button"
+                   href="https://github.com/RS77713"
+                   target="_blank"
+                   rel="noopener noreferrer"
+                   aria-label="Visit Edgars Mihailovskis on GitHub">
+                    <span class="social-icon" aria-hidden="true">GH</span>
+                    <span>GitHub</span>
+                </a>
+
+                <a class="social-button facebook-button"
+                   href="https://www.facebook.com/"
+                   target="_blank"
+                   rel="noopener noreferrer"
+                   aria-label="Open Facebook">
+                    <span class="social-icon" aria-hidden="true">f</span>
+                    <span>Facebook</span>
+                </a>
+
+                <a class="social-button linkedin-button"
+                   href="https://www.linkedin.com/"
+                   target="_blank"
+                   rel="noopener noreferrer"
+                   aria-label="Open LinkedIn">
+                    <span class="social-icon" aria-hidden="true">in</span>
+                    <span>LinkedIn</span>
+                </a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Edgars Mihailovskis</p>
+        <p>Exit, pursued by a browser error.</p>
+    </footer>
+
+</body>
+</html>
